@@ -1,0 +1,27 @@
+[gd_resource type="ParticleProcessMaterial" format=3 uid="uid://duiwwqa0hm0ko"]
+
+[resource]
+lifetime_randomness = 0.31
+particle_flag_rotate_y = true
+particle_flag_disable_z = true
+emission_shape_scale = Vector3(1, 0, 1)
+angle_min = -188.2
+angle_max = 153.20001
+inherit_velocity_ratio = 0.11
+direction = Vector3(-1, -0.5, 0)
+spread = 29.374
+flatness = 0.319
+initial_velocity_min = 112.93
+initial_velocity_max = 197.98999
+orbit_velocity_min = -0.55999994
+orbit_velocity_max = -0.44999993
+linear_accel_min = -50.29
+linear_accel_max = -24.910002
+radial_accel_min = 42.859997
+radial_accel_max = 75.689995
+attractor_interaction_enabled = false
+scale_min = 0.9
+scale_max = 2.04
+scale_over_velocity_min = 231.01
+scale_over_velocity_max = 619.95996
+anim_speed_max = 7.55

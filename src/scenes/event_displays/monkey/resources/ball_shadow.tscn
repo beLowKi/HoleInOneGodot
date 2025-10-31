@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvt265kc6iadb"]
+
+[ext_resource type="Texture2D" uid="uid://cyjiu36r2tb0g" path="res://src/assets/textures/apes.png" id="1_jt4q2"]
+
+[node name="BallShadow" type="PathFollow2D"]
+rotates = false
+loop = false
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.513726)
+texture = ExtResource("1_jt4q2")
+region_enabled = true
+region_rect = Rect2(114, 562, 60, 60)

@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://cpsem0pkjqhhh"]
+
+[ext_resource type="Script" uid="uid://b3qvdj27hlapv" path="res://src/old/rhythm_engine/rhythm_engine.gd" id="1_4auub"]
+[ext_resource type="PackedScene" uid="uid://bqqh445tw6by" path="res://src/old/rhythm_engine/scenes/SoundSync.tscn" id="2_fn1oe"]
+[ext_resource type="PackedScene" uid="uid://dilnjgcq60wck" path="res://src/old/rhythm_engine/scenes/Stylus.tscn" id="3_cwt4o"]
+[ext_resource type="PackedScene" uid="uid://cf8ydfsqjptoj" path="res://src/old/rhythm_engine/scenes/Metronome.tscn" id="5_camfr"]
+[ext_resource type="Script" uid="uid://da5ss1lk2nee7" path="res://src/old/property_link.gd" id="8_psdos"]
+
+[node name="RhythmEngine" type="Node2D"]
+script = ExtResource("1_4auub")
+
+[node name="SoundSync" parent="." instance=ExtResource("2_fn1oe")]
+default_number_of_players = 5
+
+[node name="Stylus" parent="." instance=ExtResource("3_cwt4o")]
+tolerance = 13.5
+
+[node name="Metronome" parent="." instance=ExtResource("5_camfr")]
+pick_up_measures = 1
+
+[node name="PropertyLink" type="Node2D" parent="." node_paths=PackedStringArray("root_node", "linked_nodes")]
+script = ExtResource("8_psdos")
+root_node = NodePath("..")
+linked_nodes = [NodePath("../SoundSync"), NodePath("../Stylus"), NodePath("../Metronome")]
+properties_strings = Array[StringName]([&"default_number_of_players", &"tolerance", &"pick_up_measures"])

@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=3 uid="uid://b833hew72ma1u"]
+
+[ext_resource type="Script" uid="uid://d3htxcjlb5ciy" path="res://src/scenes/golf_ball_flight_path/golf_ball_flight_path.gd" id="1_1hs26"]
+[ext_resource type="Script" uid="uid://b3v0yu4gcw2xn" path="res://src/old/beat.gd" id="2_hffq6"]
+
+[sub_resource type="Curve2D" id="Curve2D_d4odq"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, -1)
+}
+point_count = 1
+
+[sub_resource type="Resource" id="Resource_tp28u"]
+script = ExtResource("2_hffq6")
+duration = 4
+
+[sub_resource type="Curve2D" id="Curve2D_dratd"]
+
+[sub_resource type="Curve2D" id="Curve2D_n1ig4"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0.694641, -0.69458, 44.593445, 23.143429, -44.593445, -23.143429, -74, -85, 0, 0, 0, 0, -179, 38)
+}
+point_count = 3
+
+[sub_resource type="Curve2D" id="Curve2D_w23m3"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0.694641, -0.69458, 80.03919, -0.85850143, -80.03919, 0.85850143, -80, -162, 0, 0, 0, 0, -179, 38)
+}
+point_count = 3
+
+[node name="GolfBallFlightPath" type="Path2D"]
+curve = SubResource("Curve2D_d4odq")
+script = ExtResource("1_1hs26")
+flight_time_rhythm = Array[ExtResource("2_hffq6")]([SubResource("Resource_tp28u")])
+early_late_flight_time = null
+
+[node name="ShadowPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_dratd")
+metadata/_edit_lock_ = true
+
+[node name="EarlyLateShadowPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_n1ig4")
+metadata/_edit_lock_ = true
+
+[node name="EarlyLatePath" type="Path2D" parent="."]
+position = Vector2(0, -1)
+curve = SubResource("Curve2D_w23m3")

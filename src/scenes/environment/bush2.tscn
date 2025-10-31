@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4imcbjpenpi2"]
+
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="1_x2xor"]
+
+[node name="Bush2" type="Node2D"]
+
+[node name="Leaf1" type="Sprite2D" parent="."]
+position = Vector2(-23, -10)
+rotation = 0.5844512
+texture = ExtResource("1_x2xor")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(564, 76, 112, 63)
+
+[node name="Leaf2" type="Sprite2D" parent="."]
+position = Vector2(-17, -31)
+rotation = 0.89670247
+texture = ExtResource("1_x2xor")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(563, 5, 114, 63)
+
+[node name="Leaf3" type="Sprite2D" parent="."]
+position = Vector2(19, -25)
+rotation = -1.0542248
+texture = ExtResource("1_x2xor")
+region_enabled = true
+region_rect = Rect2(563, 228, 98, 71)

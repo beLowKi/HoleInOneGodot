@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bagyd20cnx8qw"]
+
+[ext_resource type="Script" uid="uid://csu3l76orrv40" path="res://src/scenes/golf_ball_flight_path/components/ball_follow/ball_follow.gd" id="1_8a2ko"]
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="2_8a2ko"]
+
+[node name="BallFollow" type="PathFollow2D"]
+rotation = -1.05254
+rotates = false
+script = ExtResource("1_8a2ko")
+
+[node name="Ball" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.39215687)
+z_index = -1
+position = Vector2(1.90735e-06, 0)
+rotation = 1.0472
+scale = Vector2(0.39281157, 0.39281157)
+texture = ExtResource("2_8a2ko")
+region_enabled = true
+region_rect = Rect2(860, 804, 81, 48)

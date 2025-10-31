@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf8ydfsqjptoj"]
+
+[ext_resource type="Script" uid="uid://v66sawksli2x" path="res://src/old/rhythm_engine/scripts/metronome.gd" id="1_0c3nd"]
+[ext_resource type="AudioStream" uid="uid://cpogxpo20pv6b" path="res://src/old/rhythm_engine/assets/drumsticks-pro-mark-la-special-2bn-hickory-no4-103712.mp3" id="2_l0f1v"]
+
+[node name="Metronome" type="Node2D"]
+script = ExtResource("1_0c3nd")
+tick_sound_file = "res://src/resources/rhythm_engine/assets/drumsticks-pro-mark-la-special-2bn-hickory-no4-103712.mp3"
+
+[node name="Timers" type="Node2D" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_l0f1v")
+volume_db = -80.0
+pitch_scale = 3.05
+
+[node name="PrestartTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="SongTimer" type="Timer" parent="."]
+one_shot = true

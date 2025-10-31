@@ -1,0 +1,55 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4er41mytef4y"]
+
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="1_bg4or"]
+
+[node name="Bush" type="Node2D"]
+
+[node name="Flower" type="Sprite2D" parent="."]
+z_index = 2
+texture = ExtResource("1_bg4or")
+region_enabled = true
+region_rect = Rect2(876, 125, 79, 74)
+
+[node name="Leaf" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(25.999996, -3.9999979)
+rotation = -0.28545403
+texture = ExtResource("1_bg4or")
+region_enabled = true
+region_rect = Rect2(563, 77, 113, 63)
+
+[node name="Leaf2" type="Sprite2D" parent="."]
+position = Vector2(14, -26)
+rotation = -0.72073185
+texture = ExtResource("1_bg4or")
+region_enabled = true
+region_rect = Rect2(564, 4, 110, 61)
+
+[node name="Leaf3" type="Sprite2D" parent="."]
+position = Vector2(-12.999998, -23)
+rotation = 0.6860088
+texture = ExtResource("1_bg4or")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(563, 77, 113, 63)
+
+[node name="Leaf4" type="Sprite2D" parent="."]
+position = Vector2(19, 20)
+rotation = 0.7088699
+texture = ExtResource("1_bg4or")
+region_enabled = true
+region_rect = Rect2(563, 228, 97, 71)
+
+[node name="Leaf5" type="Sprite2D" parent="."]
+position = Vector2(-29, 7)
+rotation = 2.3648798
+texture = ExtResource("1_bg4or")
+region_enabled = true
+region_rect = Rect2(563, 228, 97, 71)
+
+[node name="Leaf6" type="Sprite2D" parent="."]
+position = Vector2(-15, 26)
+rotation = 2.1768827
+texture = ExtResource("1_bg4or")
+region_enabled = true
+region_rect = Rect2(565, 149, 95, 68)

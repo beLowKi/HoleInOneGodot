@@ -1,0 +1,10 @@
+# Godot 4+ specific ignores
+.import
+.mono
+.godot/
+/android/
+export.cfg
+export_presets.cfg
+
+# Ignores executable builds
+/builds/

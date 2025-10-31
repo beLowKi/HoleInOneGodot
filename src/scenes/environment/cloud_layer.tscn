@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://bevn1g1o6k3o6"]
+
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="1_em4ve"]
+
+[node name="BackClouds" type="Parallax2D"]
+
+[node name="cloud" type="Sprite2D" parent="."]
+position = Vector2(311, -56)
+scale = Vector2(1.98841, 1.98841)
+texture = ExtResource("1_em4ve")
+region_enabled = true
+region_rect = Rect2(4, 226, 353, 266)
+
+[node name="cloud2" type="Sprite2D" parent="."]
+position = Vector2(-272, 0)
+scale = Vector2(1.7576911, 1.6056972)
+texture = ExtResource("1_em4ve")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(4, 226, 353, 266)
+
+[node name="cloud3" type="Sprite2D" parent="."]
+position = Vector2(455, -133)
+texture = ExtResource("1_em4ve")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(491, 226, 67, 75)
+
+[node name="cloud4" type="Sprite2D" parent="."]
+position = Vector2(494.00003, -146.00002)
+scale = Vector2(0.5805142, 0.5805142)
+texture = ExtResource("1_em4ve")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(491, 226, 67, 75)
+
+[node name="cloud5" type="Sprite2D" parent="."]
+position = Vector2(129.5, -217.5)
+texture = ExtResource("1_em4ve")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(491, 226, 67, 75)
+
+[node name="cloud6" type="Sprite2D" parent="."]
+position = Vector2(99, -232)
+scale = Vector2(0.42193085, 0.42193085)
+texture = ExtResource("1_em4ve")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(491, 226, 67, 75)

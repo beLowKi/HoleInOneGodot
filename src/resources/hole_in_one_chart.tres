@@ -1,0 +1,1016 @@
+[gd_resource type="Resource" script_class="Chart" load_steps=182 format=3 uid="uid://cwfnyhxl7atvi"]
+
+[ext_resource type="Script" uid="uid://c2qjoqehodxtf" path="res://src/old/chart/chart.gd" id="1_7641m"]
+[ext_resource type="Script" uid="uid://c2sj0pmiuhs6t" path="res://src/old/song_events/rhythm_input_event.gd" id="2_03nx4"]
+[ext_resource type="Script" uid="uid://cy3atk1ith3jq" path="res://src/old/song_events/meta_events/measure.gd" id="3_7p4yn"]
+[ext_resource type="Script" uid="uid://bcpegghc81q82" path="res://src/old/song_events/meta_events/section.gd" id="4_qxwrk"]
+
+[sub_resource type="InputEventAction" id="InputEventAction_divll"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_vi87o"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_divll")
+start_time = 3.13043
+end_time = 3.3913
+
+[sub_resource type="Resource" id="Resource_x5ys6"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_vi87o")])
+number = 2
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_l6fg4"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_oeb1a"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_l6fg4")
+start_time = 5.73913
+end_time = 6.0
+
+[sub_resource type="Resource" id="Resource_213n1"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_oeb1a")])
+number = 3
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_a102w"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_oclvg"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_a102w")
+start_time = 7.82608
+end_time = 8.08695
+
+[sub_resource type="Resource" id="Resource_5iwee"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_oclvg")])
+number = 4
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_ydeo1"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_nmmvy"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_ydeo1")
+start_time = 9.91304
+end_time = 10.1739
+
+[sub_resource type="Resource" id="Resource_kirar"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_nmmvy")])
+number = 5
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_ng7a1"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_yvfr7"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_ng7a1")
+start_time = 11.4783
+end_time = 11.7391
+
+[sub_resource type="Resource" id="Resource_4ox7b"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_yvfr7")])
+number = 6
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_i8sl4"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_dt6w8"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_i8sl4")
+start_time = 14.087
+end_time = 14.3478
+
+[sub_resource type="Resource" id="Resource_cjax6"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_dt6w8")])
+number = 7
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_ttyii"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_ryuoi"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_ttyii")
+start_time = 16.1739
+end_time = 16.4348
+
+[sub_resource type="Resource" id="Resource_yltyt"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_ryuoi")])
+number = 8
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_lg7j2"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_20avb"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_lg7j2")
+start_time = 18.2609
+end_time = 18.5217
+
+[sub_resource type="Resource" id="Resource_cruoi"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_20avb")])
+number = 9
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_flnko"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_5y55x"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_flnko")
+start_time = 19.8261
+end_time = 20.087
+
+[sub_resource type="Resource" id="Resource_4ljld"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_5y55x")])
+number = 10
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_m4hgb"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_xp3e1"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_m4hgb")
+start_time = 21.913
+end_time = 22.1739
+
+[sub_resource type="Resource" id="Resource_41jxf"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_xp3e1")])
+number = 11
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_xpvvi"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_g75co"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_xpvvi")
+start_time = 24.0
+end_time = 24.2609
+
+[sub_resource type="Resource" id="Resource_htkcq"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_g75co")])
+number = 12
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_jnlpm"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_neph5"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_jnlpm")
+start_time = 26.0869
+end_time = 26.3478
+
+[sub_resource type="Resource" id="Resource_ocovk"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_neph5")])
+number = 13
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_5o171"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_c3luo"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_5o171")
+start_time = 28.1739
+end_time = 28.4348
+
+[sub_resource type="Resource" id="Resource_7s56y"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_c3luo")])
+number = 14
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_kxc35"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_q1w2j"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_kxc35")
+start_time = 30.2609
+end_time = 30.5217
+
+[sub_resource type="Resource" id="Resource_q6ywl"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_q1w2j")])
+number = 15
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_ckk4x"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_duce6"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_ckk4x")
+start_time = 32.3478
+end_time = 32.6087
+
+[sub_resource type="Resource" id="Resource_rwj6u"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_duce6")])
+number = 16
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_6qycp"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_jyqu1"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_6qycp")
+start_time = 34.4348
+end_time = 34.6956
+
+[sub_resource type="Resource" id="Resource_65ri8"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_jyqu1")])
+number = 17
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_sgui6"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_5iswj"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_sgui6")
+start_time = 36.5217
+end_time = 36.7826
+
+[sub_resource type="Resource" id="Resource_odu21"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_5iswj")])
+number = 18
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_itevr"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_pghdh"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_itevr")
+start_time = 39.1304
+end_time = 39.3913
+
+[sub_resource type="Resource" id="Resource_oftnd"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_pghdh")])
+number = 19
+unique_notes = Array[String](["D"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_uyqip"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_kmxb3"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_uyqip")
+start_time = 40.1739
+end_time = 40.4348
+
+[sub_resource type="InputEventAction" id="InputEventAction_v52wb"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_e140b"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_v52wb")
+start_time = 41.2174
+end_time = 41.4783
+
+[sub_resource type="Resource" id="Resource_xp3db"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_kmxb3"), SubResource("Resource_e140b")])
+number = 20
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_kkh71"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_eir4n"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_kkh71")
+start_time = 42.2609
+end_time = 42.5217
+
+[sub_resource type="InputEventAction" id="InputEventAction_hlqqb"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_qx6ic"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_hlqqb")
+start_time = 43.3043
+end_time = 43.5652
+
+[sub_resource type="Resource" id="Resource_f4158"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_eir4n"), SubResource("Resource_qx6ic")])
+number = 21
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_uwckd"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_v11ti"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_uwckd")
+start_time = 44.3478
+end_time = 44.6087
+
+[sub_resource type="InputEventAction" id="InputEventAction_w3nj7"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_fryhj"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_w3nj7")
+start_time = 45.3913
+end_time = 45.6522
+
+[sub_resource type="Resource" id="Resource_wvbst"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_v11ti"), SubResource("Resource_fryhj")])
+number = 22
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_5gm0b"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_ei7dl"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_5gm0b")
+start_time = 46.4348
+end_time = 46.6956
+
+[sub_resource type="InputEventAction" id="InputEventAction_lhp8t"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_7wlv1"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_lhp8t")
+start_time = 47.4782
+end_time = 47.7391
+
+[sub_resource type="Resource" id="Resource_5bp35"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_ei7dl"), SubResource("Resource_7wlv1")])
+number = 23
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_e34up"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_gugig"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_e34up")
+start_time = 48.5217
+end_time = 48.7826
+
+[sub_resource type="InputEventAction" id="InputEventAction_c35cn"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_l5xuq"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_c35cn")
+start_time = 49.5652
+end_time = 49.8261
+
+[sub_resource type="Resource" id="Resource_pfkja"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_gugig"), SubResource("Resource_l5xuq")])
+number = 24
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_buhaf"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_bbnoq"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_buhaf")
+start_time = 50.6087
+end_time = 50.8696
+
+[sub_resource type="InputEventAction" id="InputEventAction_5ri00"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_ejcts"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_5ri00")
+start_time = 51.6522
+end_time = 51.913
+
+[sub_resource type="Resource" id="Resource_wmhq0"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_bbnoq"), SubResource("Resource_ejcts")])
+number = 25
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_qodsd"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_syj18"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_qodsd")
+start_time = 52.6956
+end_time = 52.9565
+
+[sub_resource type="InputEventAction" id="InputEventAction_42f74"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_icbmu"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_42f74")
+start_time = 53.7391
+end_time = 54.0
+
+[sub_resource type="Resource" id="Resource_kluh0"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_syj18"), SubResource("Resource_icbmu")])
+number = 26
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_cm4sq"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_y8dei"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_cm4sq")
+start_time = 55.8261
+end_time = 56.0869
+
+[sub_resource type="Resource" id="Resource_bx0g3"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_y8dei")])
+number = 27
+unique_notes = Array[String](["D"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_uofh7"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_2y5cb"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_uofh7")
+start_time = 56.8696
+end_time = 57.1304
+
+[sub_resource type="InputEventAction" id="InputEventAction_oc24a"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_htfbe"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_oc24a")
+start_time = 57.913
+end_time = 58.1739
+
+[sub_resource type="Resource" id="Resource_vvmf2"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_2y5cb"), SubResource("Resource_htfbe")])
+number = 28
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_wfh1o"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_rymhx"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_wfh1o")
+start_time = 58.9565
+end_time = 59.2174
+
+[sub_resource type="InputEventAction" id="InputEventAction_y8afs"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_yk0f5"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_y8afs")
+start_time = 60.0
+end_time = 60.2609
+
+[sub_resource type="Resource" id="Resource_s2yb7"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_rymhx"), SubResource("Resource_yk0f5")])
+number = 29
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_22lkn"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_f5kli"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_22lkn")
+start_time = 61.0435
+end_time = 61.3043
+
+[sub_resource type="InputEventAction" id="InputEventAction_rt562"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_2ochj"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_rt562")
+start_time = 62.0869
+end_time = 62.3478
+
+[sub_resource type="Resource" id="Resource_0kmkj"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_f5kli"), SubResource("Resource_2ochj")])
+number = 30
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_jnxnm"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_bcphb"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_jnxnm")
+start_time = 63.1304
+end_time = 63.3913
+
+[sub_resource type="InputEventAction" id="InputEventAction_tytue"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_1dxma"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_tytue")
+start_time = 64.1739
+end_time = 64.4348
+
+[sub_resource type="Resource" id="Resource_rco5r"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_bcphb"), SubResource("Resource_1dxma")])
+number = 31
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_mrnkj"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_pngty"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_mrnkj")
+start_time = 65.2174
+end_time = 65.4782
+
+[sub_resource type="InputEventAction" id="InputEventAction_jwvi3"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_giw5l"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_jwvi3")
+start_time = 66.2609
+end_time = 66.5217
+
+[sub_resource type="Resource" id="Resource_o6x85"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_pngty"), SubResource("Resource_giw5l")])
+number = 32
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_5ycih"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_0w0tc"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_5ycih")
+start_time = 67.3043
+end_time = 67.5652
+
+[sub_resource type="InputEventAction" id="InputEventAction_7cllh"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_caju5"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_7cllh")
+start_time = 68.3478
+end_time = 68.6087
+
+[sub_resource type="Resource" id="Resource_j3k1i"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_0w0tc"), SubResource("Resource_caju5")])
+number = 33
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_sb0xk"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_006y1"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_sb0xk")
+start_time = 69.3913
+end_time = 69.6522
+
+[sub_resource type="InputEventAction" id="InputEventAction_mbp8l"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_uk4tv"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_mbp8l")
+start_time = 70.4348
+end_time = 70.6956
+
+[sub_resource type="Resource" id="Resource_e8rai"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_006y1"), SubResource("Resource_uk4tv")])
+number = 34
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_k506p"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_hgxmm"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_k506p")
+start_time = 72.0
+end_time = 72.2609
+
+[sub_resource type="Resource" id="Resource_wc6x7"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_hgxmm")])
+number = 35
+unique_notes = Array[String](["D"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_tu3yh"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_f53mw"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_tu3yh")
+start_time = 73.5652
+end_time = 73.8261
+
+[sub_resource type="InputEventAction" id="InputEventAction_8o6c4"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_5svnl"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_8o6c4")
+start_time = 74.6087
+end_time = 74.8695
+
+[sub_resource type="Resource" id="Resource_jjvxp"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_f53mw"), SubResource("Resource_5svnl")])
+number = 36
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_6lcol"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_lvcnj"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_6lcol")
+start_time = 76.1739
+end_time = 76.4348
+
+[sub_resource type="Resource" id="Resource_1cgaf"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_lvcnj")])
+number = 37
+unique_notes = Array[String](["D"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_hqf3t"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_svtdy"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_hqf3t")
+start_time = 77.7391
+end_time = 78.0
+
+[sub_resource type="InputEventAction" id="InputEventAction_qhl07"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_7c6wo"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_qhl07")
+start_time = 78.7826
+end_time = 79.0435
+
+[sub_resource type="Resource" id="Resource_4fp0q"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_svtdy"), SubResource("Resource_7c6wo")])
+number = 38
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_p2gpd"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_pigil"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_p2gpd")
+start_time = 80.3478
+end_time = 80.6087
+
+[sub_resource type="Resource" id="Resource_hauvr"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_pigil")])
+number = 39
+unique_notes = Array[String](["D"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_80tsd"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_et8ce"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_80tsd")
+start_time = 82.9565
+end_time = 83.2174
+
+[sub_resource type="Resource" id="Resource_lqw8p"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_et8ce")])
+number = 40
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_anp18"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_83571"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_anp18")
+start_time = 85.0435
+end_time = 85.3043
+
+[sub_resource type="Resource" id="Resource_6nh6t"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_83571")])
+number = 41
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_2hrot"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_garxk"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_2hrot")
+start_time = 87.1304
+end_time = 87.3913
+
+[sub_resource type="Resource" id="Resource_pvrrc"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_garxk")])
+number = 42
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_1rm8x"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_dduab"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_1rm8x")
+start_time = 88.6956
+end_time = 88.9565
+
+[sub_resource type="Resource" id="Resource_tualb"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_dduab")])
+number = 43
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_y6fem"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_2ep60"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_y6fem")
+start_time = 91.3043
+end_time = 91.5652
+
+[sub_resource type="Resource" id="Resource_daknl"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_2ep60")])
+number = 44
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_ssbab"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_1rjdo"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_ssbab")
+start_time = 93.3913
+end_time = 93.6522
+
+[sub_resource type="Resource" id="Resource_lwemt"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_1rjdo")])
+number = 45
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_y2dsm"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_tts73"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_y2dsm")
+start_time = 95.4782
+end_time = 95.7391
+
+[sub_resource type="Resource" id="Resource_vwfyx"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_tts73")])
+number = 46
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_b28mk"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_lkigj"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_b28mk")
+start_time = 97.0435
+end_time = 97.3043
+
+[sub_resource type="Resource" id="Resource_k4l1h"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_lkigj")])
+number = 47
+unique_notes = Array[String](["D"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_5dfuh"]
+action = &"Button1"
+
+[sub_resource type="Resource" id="Resource_f0cgg"]
+script = ExtResource("2_03nx4")
+note_key = &"C"
+build_up = 1.04348
+action = SubResource("InputEventAction_5dfuh")
+start_time = 99.6521
+end_time = 99.913
+
+[sub_resource type="Resource" id="Resource_54y3v"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_f0cgg")])
+number = 48
+unique_notes = Array[String](["C"])
+
+[sub_resource type="InputEventAction" id="InputEventAction_23ybk"]
+action = &"Button2"
+
+[sub_resource type="Resource" id="Resource_wdx2b"]
+script = ExtResource("2_03nx4")
+note_key = &"D"
+build_up = 1.56522
+action = SubResource("InputEventAction_23ybk")
+start_time = 101.217
+end_time = 101.478
+
+[sub_resource type="Resource" id="Resource_hvpy8"]
+script = ExtResource("3_7p4yn")
+events = Array[ExtResource("2_03nx4")]([SubResource("Resource_wdx2b")])
+number = 49
+unique_notes = Array[String](["D"])
+
+[sub_resource type="Resource" id="Resource_nq1xk"]
+script = ExtResource("4_qxwrk")
+name = "Temporary/Unnamed Section"
+bpm = 115.0
+measures = Array[ExtResource("3_7p4yn")]([SubResource("Resource_x5ys6"), SubResource("Resource_213n1"), SubResource("Resource_5iwee"), SubResource("Resource_kirar"), SubResource("Resource_4ox7b"), SubResource("Resource_cjax6"), SubResource("Resource_yltyt"), SubResource("Resource_cruoi"), SubResource("Resource_4ljld"), SubResource("Resource_41jxf"), SubResource("Resource_htkcq"), SubResource("Resource_ocovk"), SubResource("Resource_7s56y"), SubResource("Resource_q6ywl"), SubResource("Resource_rwj6u"), SubResource("Resource_65ri8"), SubResource("Resource_odu21"), SubResource("Resource_oftnd"), SubResource("Resource_xp3db"), SubResource("Resource_f4158"), SubResource("Resource_wvbst"), SubResource("Resource_5bp35"), SubResource("Resource_pfkja"), SubResource("Resource_wmhq0"), SubResource("Resource_kluh0"), SubResource("Resource_bx0g3"), SubResource("Resource_vvmf2"), SubResource("Resource_s2yb7"), SubResource("Resource_0kmkj"), SubResource("Resource_rco5r"), SubResource("Resource_o6x85"), SubResource("Resource_j3k1i"), SubResource("Resource_e8rai"), SubResource("Resource_wc6x7"), SubResource("Resource_jjvxp"), SubResource("Resource_1cgaf"), SubResource("Resource_4fp0q"), SubResource("Resource_hauvr"), SubResource("Resource_lqw8p"), SubResource("Resource_6nh6t"), SubResource("Resource_pvrrc"), SubResource("Resource_tualb"), SubResource("Resource_daknl"), SubResource("Resource_lwemt"), SubResource("Resource_vwfyx"), SubResource("Resource_k4l1h"), SubResource("Resource_54y3v"), SubResource("Resource_hvpy8")])
+time_signature = 2
+num_tracks = 1
+us_per_beat = 521739
+start_time = 2.08696
+end_time = 101.478
+
+[resource]
+script = ExtResource("1_7641m")
+Name = "hole_in_one"
+song_file = "uid://cgeb04pk4267g"
+description = "No description"
+sections = Array[ExtResource("4_qxwrk")]([SubResource("Resource_nq1xk")])

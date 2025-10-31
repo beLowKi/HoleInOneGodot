@@ -1,0 +1,80 @@
+[gd_scene load_steps=2 format=3 uid="uid://ba8jjlrpxnwni"]
+
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="1_4swrg"]
+
+[node name="Tree" type="Sprite2D"]
+texture = ExtResource("1_4swrg")
+region_enabled = true
+region_rect = Rect2(364, 228, 119, 261)
+
+[node name="Leaves" type="Node2D" parent="."]
+metadata/_edit_group_ = true
+
+[node name="Leaves" type="Sprite2D" parent="Leaves"]
+z_index = 2
+position = Vector2(-64.55835, -57.33252)
+rotation = -0.9543117
+texture = ExtResource("1_4swrg")
+region_enabled = true
+region_rect = Rect2(668, 236, 160, 62)
+
+[node name="Leaves5" type="Sprite2D" parent="Leaves"]
+z_index = 2
+position = Vector2(18, -104)
+rotation = -0.05608637
+texture = ExtResource("1_4swrg")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(668, 236, 160, 62)
+
+[node name="Leaves2" type="Sprite2D" parent="Leaves"]
+z_index = 1
+position = Vector2(-80, -75)
+rotation = -0.61374134
+texture = ExtResource("1_4swrg")
+region_enabled = true
+region_rect = Rect2(670, 164, 158, 62)
+
+[node name="Leaves6" type="Sprite2D" parent="Leaves"]
+z_index = 1
+position = Vector2(7, -138)
+rotation = -0.53752
+texture = ExtResource("1_4swrg")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(670, 164, 158, 62)
+
+[node name="Leaves3" type="Sprite2D" parent="Leaves"]
+z_index = 2
+position = Vector2(-93, -112)
+rotation = -0.0030386895
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("1_4swrg")
+region_enabled = true
+region_rect = Rect2(684, 84, 185, 71)
+
+[node name="Leaves7" type="Sprite2D" parent="Leaves"]
+z_index = 1
+position = Vector2(5, -155.99998)
+rotation = -0.7702752
+scale = Vector2(0.9999999, 0.9999999)
+texture = ExtResource("1_4swrg")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(684, 84, 185, 71)
+
+[node name="Leaves4" type="Sprite2D" parent="Leaves"]
+position = Vector2(-81.55835, -148.33252)
+rotation = 0.63255763
+texture = ExtResource("1_4swrg")
+region_enabled = true
+region_rect = Rect2(685, 4, 182, 70)
+
+[node name="Leaves8" type="Sprite2D" parent="Leaves"]
+z_index = 1
+position = Vector2(-23, -164)
+rotation = -1.1672912
+texture = ExtResource("1_4swrg")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(685, 4, 182, 70)

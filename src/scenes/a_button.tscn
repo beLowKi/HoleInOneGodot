@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://dvoq4gg5q0vus"]
+
+[ext_resource type="Texture2D" uid="uid://bly66ohfvxvic" path="res://src/assets/textures/misc.png" id="1_5qi8v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d7ufn"]
+atlas = ExtResource("1_5qi8v")
+region = Rect2(0, 0, 80, 85)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rplhp"]
+atlas = ExtResource("1_5qi8v")
+region = Rect2(80, 0, 80, 84)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n635j"]
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_d7ufn")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d7ufn")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_rplhp")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"Pressed",
+"speed": 5.0
+}]
+
+[node name="AButton" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_n635j")
+animation = &"Pressed"
+autoplay = "Idle"
+frame = 2
+frame_progress = 1.0

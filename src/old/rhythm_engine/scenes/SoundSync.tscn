@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqqh445tw6by"]
+
+[ext_resource type="Script" uid="uid://c3b4hg8qtcw65" path="res://src/old/rhythm_engine/scripts/sound_sync.gd" id="1_3di4y"]
+
+[node name="SoundSync" type="Node2D"]
+script = ExtResource("1_3di4y")
+
+[node name="SongPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = 6.894
+
+[node name="AudioPlayers" type="Node2D" parent="."]

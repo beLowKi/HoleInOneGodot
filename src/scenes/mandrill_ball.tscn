@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgp8b7wers13q"]
+
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="2_eespn"]
+
+[node name="BallFollow" type="PathFollow2D"]
+z_index = 5
+rotation = -1.05254
+rotates = false
+loop = false
+
+[node name="Ball2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.898039)
+z_index = -1
+position = Vector2(1.90735e-06, 0)
+rotation = 1.0472
+scale = Vector2(0.536172, 1.77842)
+texture = ExtResource("2_eespn")
+region_enabled = true
+region_rect = Rect2(858, 458, 163, 52)
+
+[node name="Ball3" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.592157)
+z_index = -1
+position = Vector2(1.90735e-06, 0)
+rotation = 1.0472
+scale = Vector2(0.666544, 1.55041)
+texture = ExtResource("2_eespn")
+region_enabled = true
+region_rect = Rect2(858, 458, 163, 52)

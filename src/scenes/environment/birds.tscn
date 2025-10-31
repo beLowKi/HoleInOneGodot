@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=3 uid="uid://b71pf4vjmse6q"]
+
+[ext_resource type="Texture2D" uid="uid://dnkps7vipqbdx" path="res://src/assets/textures/environment.png" id="1_declj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6x06"]
+atlas = ExtResource("1_declj")
+region = Rect2(561, 610, 78, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qr3nk"]
+atlas = ExtResource("1_declj")
+region = Rect2(641, 610, 78, 53)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lt142"]
+atlas = ExtResource("1_declj")
+region = Rect2(721, 610, 78, 53)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7jh7w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6x06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qr3nk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lt142")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Birds" type="Node2D"]
+metadata/_edit_group_ = true
+
+[node name="Bird1" type="AnimatedSprite2D" parent="."]
+position = Vector2(-9, -27.500004)
+scale = Vector2(0.99999994, 0.9999999)
+sprite_frames = SubResource("SpriteFrames_7jh7w")
+autoplay = "default"
+frame_progress = 0.5825641
+
+[node name="Bird2" type="AnimatedSprite2D" parent="."]
+position = Vector2(-28, 17.499996)
+scale = Vector2(0.99999994, 0.9999999)
+sprite_frames = SubResource("SpriteFrames_7jh7w")
+autoplay = "default"
+frame_progress = 0.79422116
+
+[node name="Bird3" type="AnimatedSprite2D" parent="."]
+position = Vector2(33, 8)
+scale = Vector2(0.99999994, 0.9999999)
+sprite_frames = SubResource("SpriteFrames_7jh7w")
+autoplay = "default"
+frame_progress = 0.7671025

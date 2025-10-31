@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dilnjgcq60wck"]
+
+[ext_resource type="Script" uid="uid://b2n5y15oew04m" path="res://src/old/rhythm_engine/scripts/stylus.gd" id="1_nr7gu"]
+[ext_resource type="AudioStream" uid="uid://bkmh7urf0h6x2" path="res://src/old/rhythm_engine/assets/coin-collect-retro-8-bit-sound-effect-145251.mp3" id="2_r1vcf"]
+
+[node name="Stylus" type="Node2D"]
+script = ExtResource("1_nr7gu")
+
+[node name="SongTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="NoteTimers" type="Node2D" parent="."]
+
+[node name="EventSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_r1vcf")
+volume_db = -8.0
